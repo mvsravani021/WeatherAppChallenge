@@ -91,7 +91,7 @@ struct DayForeCastDetailView: View {
         }
         .sheet(isPresented: $showDetails) {
             VStack(alignment: .leading) {
-                Text(forecast.statusMessage.capitalized)
+                Text(forecast.day + " - " + forecast.statusMessage.capitalized)
                     .fontWeight(.bold)
                
                 List {

@@ -36,7 +36,8 @@ Target location is a struct with lat and long coordinates for which forecast is 
             let longitude: Double
         }
 ```
-This struct helps not to import CoreLocation to access Coordinate
+This struct helps not to import CoreLocation to access Coordinate.
+
 
 
 

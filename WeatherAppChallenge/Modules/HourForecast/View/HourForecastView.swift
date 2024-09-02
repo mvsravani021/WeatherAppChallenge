@@ -86,7 +86,7 @@ struct HourDetailView: View {
         }
         .sheet(isPresented: $showDetails) {
             VStack(alignment: .leading) {
-                Text(forecast.statusMessage.capitalized)
+                Text(forecast.statusMessage.capitalized + " at \(forecast.hour)")
                     .fontWeight(.bold)
                 
                 List {

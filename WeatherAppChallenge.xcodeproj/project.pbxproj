@@ -16,7 +16,7 @@
 		70283F0A2C7F109400E309AB /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F092C7F109400E309AB /* LocationTracker.swift */; };
 		70283F0D2C7F1B6F00E309AB /* CurrentForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F0C2C7F1B6F00E309AB /* CurrentForecastView.swift */; };
 		70283F0F2C7F1D4A00E309AB /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F0E2C7F1D4A00E309AB /* WeatherLocation.swift */; };
-		70283F132C7F237C00E309AB /* WeatherRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F122C7F237C00E309AB /* WeatherRequestClient.swift */; };
+		70283F132C7F237C00E309AB /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F122C7F237C00E309AB /* WeatherRequest.swift */; };
 		70283F152C7F348D00E309AB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F142C7F348D00E309AB /* Extensions.swift */; };
 		70283F1C2C7F60B300E309AB /* CurrentForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F1B2C7F60B300E309AB /* CurrentForecastModel.swift */; };
 		70283F1E2C7F60CE00E309AB /* CurrentForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283F1D2C7F60CE00E309AB /* CurrentForecastViewModel.swift */; };
@@ -68,7 +68,7 @@
 		70283F092C7F109400E309AB /* LocationTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
 		70283F0C2C7F1B6F00E309AB /* CurrentForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentForecastView.swift; sourceTree = "<group>"; };
 		70283F0E2C7F1D4A00E309AB /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
-		70283F122C7F237C00E309AB /* WeatherRequestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequestClient.swift; sourceTree = "<group>"; };
+		70283F122C7F237C00E309AB /* WeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
 		70283F142C7F348D00E309AB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		70283F1B2C7F60B300E309AB /* CurrentForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentForecastModel.swift; sourceTree = "<group>"; };
 		70283F1D2C7F60CE00E309AB /* CurrentForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentForecastViewModel.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		7005EB8D2C7E0A5900D791DA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				70283F122C7F237C00E309AB /* WeatherRequestClient.swift */,
+				70283F122C7F237C00E309AB /* WeatherRequest.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -567,7 +567,7 @@
 				70283F412C8191CB00E309AB /* DayForecastViewModel.swift in Sources */,
 				70283F212C7F60ED00E309AB /* CurrentForecastDataManager.swift in Sources */,
 				70283F2F2C80A98F00E309AB /* HourForecastDataManager.swift in Sources */,
-				70283F132C7F237C00E309AB /* WeatherRequestClient.swift in Sources */,
+				70283F132C7F237C00E309AB /* WeatherRequest.swift in Sources */,
 				70283F502C81C1FA00E309AB /* SearchResultModel.swift in Sources */,
 				70283F0D2C7F1B6F00E309AB /* CurrentForecastView.swift in Sources */,
 				70283F0F2C7F1D4A00E309AB /* WeatherLocation.swift in Sources */,
@@ -728,6 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Weather app requests for location to present weather at your location";
@@ -759,6 +760,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Weather app requests for location to present weather at your location";
