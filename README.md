@@ -118,7 +118,17 @@ Upon selection of city, targetlocation is created with coordinate of the locatio
 User can always check weather of the device location with location button on top left of the screen.
 On click of location button, locationTracker fetches device location using CLLocationManager and updates currentLocation on successful retrieval of device location. All the module subscribers would get updated location and retrieves weather info to render data on the screen.
 
+## Extensions
+### URLQueryItem
+Created static func to create query items for url to append apiKey, latLong and limit count
+### TimeInterval
+Created extensions for TimeInterval to convert timeInterval to time (hh:mm a), hour (hh a) and Day (MM/dd) formats
+### View
+Created a viewModifier to apply textFonts for 3 modules and used across. 
+Created extension for View to apply style.
 
+## Constants
+Created a Struct _Constants_ to define all hardcoded constants including URLEndpoints.
 
 
 
