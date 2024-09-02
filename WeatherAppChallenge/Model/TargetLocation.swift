@@ -1,5 +1,5 @@
 //
-//  WeatherLocation.swift
+//  TargetLocation.swift
 //  WeatherAppChallenge
 //
 //  Created by Venkata Sravani Motamarri on 8/28/24.
