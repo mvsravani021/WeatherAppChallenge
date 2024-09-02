@@ -41,6 +41,8 @@ To create home screen, divided screen into 4 modules. Followed MVVM for each mod
       * Search - Sheet is presented with search bar to type city name and select location
       * Location - Get current location of device and fetch weather
 
+<img width="450" alt="Modules" src="https://github.com/user-attachments/assets/af37b312-4ebf-4bb9-b91b-51df8ed05a9c">
+
 Each module is created with MVVM structure. Has it's own dataManager, Model, viewModel and View.
 ViewModule within the module subscribes to location changes either deviceLocation or selected location from search. Upon new location, viewModel fetches weather information and updates viewState. ViewState is a published var in viewModel. Upon change in viewState, view renders new data on the screen.
 
