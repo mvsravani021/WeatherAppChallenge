@@ -98,6 +98,8 @@ On success retrieve of the location, locationTracker updates currentLocation and
 
 On click of hour forecast or day forecast, tried to present bottom sheet with further details of the weather.
 
+https://github.com/user-attachments/assets/bfe3cafe-d48a-4bf9-b743-e5440c2882ef
+
 ## Image Cache
 ImageFetcher class is created to cache image with the associated iconName. WeatherIconView is created to trigger async api to fetch image if cached image is not available. Upon successful fetch, ImageFetcher adds image to cache
 ```swift
