@@ -132,6 +132,9 @@ Created extension for View to apply style.
 ## Constants
 Created a Struct _Constants_ to define all hardcoded constants including URLEndpoints.
 
+## UnitTests
+UnitTests are covered for viewModels with mock responses
 
+<img width="1043" alt="Screenshot 2024-08-30 at 12 01 31 PM" src="https://github.com/user-attachments/assets/fa6ec2fc-b5f5-4179-9e15-66ecced145b5">
 
 
