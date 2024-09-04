@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "E09914F8-622B-4816-A68C-FFB79FF21230",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WeatherAppChallenge.xcodeproj",
+      "identifier" : "7005EB782C7DF8D200D791DA",
+      "name" : "WeatherAppChallenge"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:WeatherAppChallenge.xcodeproj",
+        "identifier" : "70283F562C81DF1600E309AB",
+        "name" : "WeatherAppChallengeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

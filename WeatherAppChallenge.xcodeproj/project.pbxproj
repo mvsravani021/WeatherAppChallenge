@@ -98,6 +98,7 @@
 		70283F6E2C821CD800E309AB /* CurrentForecastViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentForecastViewModelTests.swift; sourceTree = "<group>"; };
 		70283F702C8223FC00E309AB /* MockDayForecastDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDayForecastDataManager.swift; sourceTree = "<group>"; };
 		70283F722C822C9B00E309AB /* DayForecastViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForecastViewModelTests.swift; sourceTree = "<group>"; };
+		70D78E8E2C87F121002AD9A5 /* WeatherAppChallenge.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = WeatherAppChallenge.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 		7005EB702C7DF8D200D791DA = {
 			isa = PBXGroup;
 			children = (
+				70D78E8E2C87F121002AD9A5 /* WeatherAppChallenge.xctestplan */,
 				7005EB7B2C7DF8D200D791DA /* WeatherAppChallenge */,
 				70283F582C81DF1600E309AB /* WeatherAppChallengeTests */,
 				7005EB7A2C7DF8D200D791DA /* Products */,
