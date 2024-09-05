@@ -22,24 +22,35 @@ struct SearchResultsView: View {
             Text("Network Error. Please try again")
                 .textStyle(.error)
         case .result(let locations):
-            List {
-                ForEach(locations) { searchLocation in
-                    Button(action: {
-                        viewModel.locationTracker.updateTargetLocation( TargetLocation(latitude: searchLocation.lat, longitude: searchLocation.long), isFromSearch: true)
-                        dismiss()
-                    }, label: {
-                        HStack {
-                            VStack(alignment: .leading) {
-                                Text(searchLocation.name)
-                                    .font(.title2)
-                                Text(searchLocation.state)
-                                    .font(.subheadline)
+            if locations.count == 0 {
+                VStack(spacing: 20.0) {
+                    Image(systemName: "magnifyingglass")
+                        .tint(.primary)
+                    Text("No results found.\n Please check entered city name")
+                        .multilineTextAlignment(.center)
+                        .textStyle(.error)
+                }
+                .padding(.horizontal, 40)
+            } else {
+                List {
+                    ForEach(locations) { searchLocation in
+                        Button(action: {
+                            viewModel.locationTracker.updateTargetLocation( TargetLocation(latitude: searchLocation.lat, longitude: searchLocation.long), isFromSearch: true)
+                            dismiss()
+                        }, label: {
+                            HStack {
+                                VStack(alignment: .leading) {
+                                    Text(searchLocation.name)
+                                        .font(.title2)
+                                    Text(searchLocation.state)
+                                        .font(.subheadline)
+                                }
+                                Spacer()
                             }
-                            Spacer()
-                        }
-                        .foregroundColor(.black)
-                    })
-                    
+                            .foregroundColor(.black)
+                        })
+                        
+                    }
                 }
             }
         }
